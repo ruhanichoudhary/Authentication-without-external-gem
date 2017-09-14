@@ -1,0 +1,9 @@
+<h1>Authentication Project</h1>
+<h3>
+	All Other Users
+</h3>
+<ul>
+    <% @users.each do |user|%>
+	  <li><%=user.email%></li>
+    <% end %>
+</ul>
